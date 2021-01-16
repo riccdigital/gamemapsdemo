@@ -1,11 +1,19 @@
 #stage{
     position: relative;
+    width: 384px;
+    height: 384px;
+    background-image: url(#);
 }
 
 .cell{
+    display: block;
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 64px;
+    height: 64px;
     border: 1px solid black;
     background-color: white;
+}
+
+p{
+    width: 400px;
 }
