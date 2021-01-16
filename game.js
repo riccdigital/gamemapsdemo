@@ -14,6 +14,7 @@ const LAND = 0
 const OASIS = 1
 const MAN = 2
 const HOME = 3
+const CACTUS = 4
 
 const SIZE = 64
 
@@ -45,6 +46,9 @@ function render () {
           cell.src = '#'
           break
         case HOME:
+          cell.src = '#'
+          break
+        case CACTUS:
           cell.src = '#'
           break
       }
